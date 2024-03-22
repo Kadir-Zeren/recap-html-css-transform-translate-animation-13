@@ -61,20 +61,32 @@
 
 .translate-x {
   background-color: #b4cf66;
-  &:hover {
-    transform: translateX(100px);
-  }
+  /* &:hover { */
+  /* transform: translateX(100px); */
+  /* } */
 }
 
 .translate-y {
   background-color: #ffec5c;
-  transform: translateY(150px);
+  /* transform: translateY(150px); */
   /* transform: translateY(-250px); */
 }
 
 .translate {
   background-color: #ff5a33;
-  &:hover {
+  /* &:hover {
     transform: translate(50px, 350px);
+  } */
+}
+
+.skew-div {
+  margin: 2rem;
+  text-align: center;
+  .image {
+    border: 1px solid saddlebrown;
+    border-radius: 13px;
+    transform: skew(45deg);
+    /* transform: skewX(45deg); */
+    /* transform: skewY(45deg); */
   }
 }
